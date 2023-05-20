@@ -5,10 +5,12 @@ import { Home } from "./pages/home";
 import { Comics } from "./pages/comics";
 import { Series } from "./pages/series";
 import { Error404 } from "./pages/error404";
+import { Header } from "./components/header/header";
 
 function App() {
   return (
     <BrowserRouter className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/comics" element={<Comics />} />
