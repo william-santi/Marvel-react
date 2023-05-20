@@ -18,21 +18,21 @@ export const Header = () => {
   return (
     <div className='header-menu'>
       <Menu secondary>
-          <Menu.Item 
-              name='inicio' 
-              active={activeItem === 'inicio'} 
-              onClick={handleClick}
-          />
-          <Menu.Item 
-              name='series' 
-              active={activeItem === 'series'} 
-              onClick={handleClick}
-          />
-          <Menu.Item 
-              name='comics' 
-              active={activeItem === 'comics'} 
-              onClick={handleClick}
-          />
+        <Menu.Item 
+          name='inicio' 
+          active={activeItem === 'inicio'} 
+          onClick={handleClick}
+        />
+        <Menu.Item 
+          name='series' 
+          active={activeItem === 'series'} 
+          onClick={handleClick}
+        />
+        <Menu.Item 
+          name='comics' 
+          active={activeItem === 'comics'} 
+          onClick={handleClick}
+        />
       </Menu>
     </div>
   )
